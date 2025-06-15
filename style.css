@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 1em;
+}
+
+header {
+  text-align: center;
+  border: 2px solid black;
+  padding: 0.5em 1em;
+}
+
+header h1 {
+  margin: 0.25em 0;
+  font-size: 2.5em;
+  font-weight: normal;
+}
+
+section {
+  margin-top: 2em;
+  border: 1px solid black;
+  padding: 1em;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.intro {
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product {
+  border: 1px solid black;
+  width: 150px;
+  height: 165px;
+  margin: 0.5em;
+  padding: 0.5em;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product svg {
+  height: 70px;
+  width: 70px;
+  margin-bottom: 0.75em;
+}
+
+.product-name {
+  font-weight: bold;
+  margin-bottom: 0.25em;
+  text-align: center;
+}
+
+.product-price {
+  margin-top: auto;
+}
+
+.small-products .product {
+  width: 120px;
+  height: 140px;
+}
+
+footer {
+  margin-top: 2em;
+  font-style: italic;
+  font-size: 0.85em;
+  text-align: center;
+}
