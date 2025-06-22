@@ -404,3 +404,6 @@ FodyWeavers.xsd
 .azure
 
 *my-agent.agent.yaml
+genaiscript.d.ts
+tsconfig.json
+jsconfig.json
