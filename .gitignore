@@ -402,3 +402,5 @@ FodyWeavers.xsd
 # Environment variables
 .env
 .azure
+
+*my-agent.agent.yaml
