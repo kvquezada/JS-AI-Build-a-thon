@@ -1,5 +1,6 @@
 const changes = await git.diff({ staged: true });
 
+// Use a template literal to define the code changes
 defDiff('CODE_CHANGES', changes);
 
 $`## Role
